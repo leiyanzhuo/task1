@@ -1,0 +1,8 @@
+@import "common.scss";
+@import "_minix.scss";
+.wrap {
+    height: 100%;
+    width: 100%;
+    @include box_flex;
+    @include direction(column);
+}
